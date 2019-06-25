@@ -58,6 +58,7 @@ INSTALLED_APPS = [
     'leaflet',
     'versatileimagefield',
     'darkroom',
+    'rest_framework',
 
     # nuestras apps
     'elecciones',
@@ -232,6 +233,11 @@ CARACTERISTICA_DEFAULT = '351'
 # por defecto no se muestra grafico en la página de resultados
 SHOW_PLOT = False
 
+REST_FRAMEWORK = {
+    'DEFAULT_PERMISSION_CLASSES': [
+        'rest_framework.permissions.DjangoModelPermissionsOrAnonReadOnly'
+    ]
+}
 
 try:
     from .local_settings import *

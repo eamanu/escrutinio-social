@@ -18,6 +18,7 @@ django-geojson==2.10.0
 git+https://github.com/mgaitan/django-hijack.git#egg=django-hijack
 django-leaflet==0.22.0
 django-localflavor==2.2
+djangorestframework==3.9.4
 IPython==7.5.0
 jsonfield==2.0.2
 nameparser==0.5.3

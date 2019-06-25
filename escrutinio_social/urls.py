@@ -29,6 +29,9 @@ urlpatterns = [
     url(r'^elecciones/', include(elecciones_urls)),
     url(r'^clasificar-actas/', include('adjuntos.urls')),
     url('^reportar-problema/(?P<mesa_numero>\d+)$', ProblemaCreate.as_view(), name='reportar-problema'),
+
+    # API
+    url('api-auth/', include('rest_framework.urls'))
 ]
 
 if settings.DEBUG:
