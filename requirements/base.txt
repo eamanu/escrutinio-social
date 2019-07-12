@@ -13,6 +13,7 @@ django-fancy-cache==0.11.0
 django-material==1.5.6
 django-extensions==2.1.7
 django-formtools==2.1
+djangorestframework==3.9.4
 html2text==2016.9.19
 django-geojson==2.10.0
 git+https://github.com/mgaitan/django-hijack.git#egg=django-hijack

@@ -58,6 +58,7 @@ INSTALLED_APPS = [
     'leaflet',
     'versatileimagefield',
     'darkroom',
+    'rest_framework',
 
     # nuestras apps
     'elecciones',
@@ -231,6 +232,11 @@ CARACTERISTICA_DEFAULT = '351'
 
 # por defecto no se muestra grafico en la página de resultados
 SHOW_PLOT = False
+
+REST_FRAMEWORK = {
+        # Use Django's standard `django.contrib.auth` permissions,
+        # or allow read-only access for unauthenticated users.
+}
 
 
 try:
